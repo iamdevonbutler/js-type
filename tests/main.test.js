@@ -1,5 +1,4 @@
 const lib = require('../lib');
-const isEqual = require('js-isequal');
 
 const should = require('chai').should();
 const expect = require('chai').expect;
@@ -13,7 +12,7 @@ describe('js- tests', () => {
 
   describe('', () => {
     it('', () => {
-      // expect(isEqual()).to.be.true;
+      // expect(sdf()).to.be.true;
     });
   });
 
