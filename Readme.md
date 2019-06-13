@@ -1,4 +1,4 @@
-# js-types
+# js-type
 
 asfasdfasdfadfs
 
@@ -6,13 +6,16 @@ asfasdfasdfadfs
 
 ## Installation
 ```
-npm i --save js-types
+npm i --save js-type
 ```
 
 ## Example
 ```javascript
-const $ = require('js-types');
+const type = require('js-type');
 
+const obj = {
+  type: type.string,
+};
 ```
 
 ## API
@@ -20,7 +23,7 @@ const $ = require('js-types');
 asfasdfasdfadfs
 
 ```javascript
-const $ = require('js-types');
+const $ = require('js-type');
 ```
 
 ## License
