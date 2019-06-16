@@ -13,6 +13,10 @@ npm i --save js-type
 ```javascript
 const type = require('js-type');
 
+self.throw((test), 'string, array', 'array', ['boolean', 'function'], (arg) => {}); // throws
+
+
+
 var obj = {
   value: type.string(),
 };
