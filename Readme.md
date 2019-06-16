@@ -13,9 +13,13 @@ npm i --save js-type
 ```javascript
 const type = require('js-type');
 
-const obj = {
-  type: type.string,
+var obj = {
+  value: type.string(),
 };
+
+obj.value = 'data'; // works.
+obj.value = [1, 2] // errors.
+
 ```
 
 ## API
@@ -23,7 +27,7 @@ const obj = {
 asfasdfasdfadfs
 
 ```javascript
-const $ = require('js-type');
+const type = require('js-type');
 ```
 
 ## License
